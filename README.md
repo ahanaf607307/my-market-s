@@ -13,11 +13,5 @@ The connection is established in `src/v1/db.js`. I implemented a fix to ensure t
 4. `datastore-key.json` in the project root.
 5. Application Default Credentials (GCP environment).
 
-### Multi-Database Support
-The system supports specific Firestore databases via the `FIRESTORE_DB_NAME` environment variable (currently set to `dev-db3`).
-
-## 2. Configuration Saving Flow (UI to DB)
-
-When a user saves a configuration in the UI, the following flow occurs:
 
 
